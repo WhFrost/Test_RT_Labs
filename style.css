@@ -14,7 +14,7 @@
   margin-left: auto;
   margin-right: auto;
   min-width: 1024px;
-  width: 1280px;
+  max-width: 1280px;
   list-style: none;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .main-menu li .sub-menu {
-  display: none;
+  display: block;
   list-style: none;
   position: absolute;
   width: 100%;
@@ -44,5 +44,15 @@
 }
 
 .main-menu li:hover .sub-menu {
+  display: block;
+}
+.main-menu li .sub-menu-2 {
+  display: block;
+  list-style: none;
+  position: absolute;
+  top: -48px;
+  right: -178px;
+}
+.sub-menu li:hover .sub-menu-2 {
   display: block;
 }

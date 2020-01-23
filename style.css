@@ -18,7 +18,7 @@
   list-style: none;
 }
 
-.main-menu>ul li a {
+.main-menu li a {
   display: block;
   padding: 15px 30px;
   color: #fff;
@@ -27,7 +27,7 @@
   background: linear-gradient(to right, #75b5e6, #5799db);
 }
 .main-menu li a:hover{
-  background: rgba(87, 153, 219, 0.5);
+  background: rgba(157, 169, 182, 0.8);
 
 }
 .main-menu>ul li {
@@ -35,13 +35,14 @@
   flex-grow: 1;
 }
 
-.main-menu .sub-menu >li {
+.main-menu li .sub-menu {
   display: none;
   list-style: none;
   position: absolute;
-
+  width: 100%;
+  background: linear-gradient(to right, #75b5e6, #5799db);
 }
 
-.main-menu > li:hover .sub-menu {
+.main-menu li:hover .sub-menu {
   display: block;
 }
